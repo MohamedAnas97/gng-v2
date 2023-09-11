@@ -1,0 +1,127 @@
+/* Metaverse image */
+.bg-common-css {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  -webkit-transition: background-image 1000ms linear;
+  -ms-transition: background-image 1000ms linear;
+  transition: background-image 1000ms linear;
+}
+.banner_container {
+  background-image: url("../assets/homepage/rectangle.png");
+}
+/* virtual image */
+.banner_container2 {
+  background-image: url("../assets/homepage/virtual.png");
+}
+/* Game image */
+.banner_container3 {
+  background-image: url("../assets/homepage/game.png");
+}
+/* Block chain image */
+.banner_container4 {
+  background-image: url("../assets/homepage/blockchain.png");
+}
+/* metaverse consult */
+.banner_container5 {
+  background-image: url("../assets/homepage/metaverse.png");
+}
+/* cross platform */
+.banner_container6 {
+  background-image: url("../assets/homepage/cross.png");
+}
+/* avatar image */
+.banner_container7 {
+  background-image: url("../assets/homepage/avatar.png");
+}
+/* ui ux prototype */
+.banner_container8 {
+  background-image: url("../assets/homepage/uiux.png");
+}
+/* mobile App image */
+.banner_container9 {
+  background-image: url("../assets/homepage/mobile.png");
+}
+/* custom web */
+.banner_container10 {
+  background-image: url("../assets/homepage/custom.png");
+}
+/* brand image */
+.banner_container11 {
+  background-image: url("../assets/homepage/brand.png");
+}
+/* custome video container css */
+.video_banner {
+  width: 100% !important;
+  height: 100vh !important;
+}
+/* custome video banner css  */
+.video_container {
+  width: 100% !important;
+  height: 100% !important ;
+  object-fit: cover !important;
+}
+/* input contact place holder */
+.contact_form::-webkit-input-placeholder {
+  color: #000000 !important;
+}
+
+.contact_form:-ms-input-placeholder {
+  color: #000000 !important;
+}
+
+.contact_form::placeholder {
+  color: #000000 !important;
+}
+
+/* Email address placeholder */
+.email_form::-webkit-input-placeholder {
+  color: #757575 !important;
+}
+
+.email_form:-ms-input-placeholder {
+  color: #757575 !important;
+}
+
+.email_form::placeholder {
+  color: #757575 !important;
+}
+/* how we work hover css */
+#growContainer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.grow {
+  display: table-cell;
+  height: auto;
+  /* width: 18.33%; */
+  -webkit-transition: width 500ms;
+  -moz-transition: width 500ms;
+  transition: width 500ms;
+}
+.border_color::after {
+  border-color: transparent !important;
+}
+/* carousel button */
+
+.carousel-vertical-container .css-1fzpoyk {
+  width: 200px !important;
+  height: auto !important;
+  cursor: pointer !important;
+  color: #fff !important;
+}
+.carousel-vertical-container .css-doq0dk {
+  writing-mode: vertical-rl !important;
+}
+/* media Queries */
+@media (max-width: 1024px) and (min-width: 0px) {
+  .carousel-vertical-container .css-doq0dk {
+    writing-mode: horizontal-tb !important;
+  }
+  .carousel-vertical-container .css-1fzpoyk {
+    text-align: center !important;
+    width: auto !important;
+    height: 100px !important;
+  }
+}

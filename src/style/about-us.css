@@ -1,0 +1,18 @@
+/* get touch left image */
+.banner_img {
+  background-image: url("../assets/about-us/left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* get touch right image */
+.banner_img2 {
+  background-image: url("../assets/about-us/right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* get touch  full image */
+.banner_img3 {
+  background-image: url("../assets/about-us/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

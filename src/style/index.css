@@ -1,0 +1,9 @@
+@import url("./homepage.css");
+@import url("./about-us.css");
+@import url("./checkbox.css"); 
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebebed;
+}

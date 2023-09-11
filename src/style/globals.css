@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Oranienbaum&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* aeonik */
+@font-face {
+  font-family: "aeonik", sans-serif;
+  src: url("../assets/fonts/aeonik/AeonikTRIAL-Light.otf") format("truetype");
+}
+.aeionik-font {
+  font-family: "aeonik", sans-serif;
+}
+
+/* Montserrat */
+.monotserrat {
+  font-family: "Montserrat", sans-serif;
+}
+/* Oranienbaum */
+.oranienbaum {
+  font-family: "Oranienbaum", serif;
+}
+/* Plus Jakarta Sans */
+.plusjakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* video css */
+.video_banner video {
+  object-fit: cover;
+}
+/* video content  */
+.video_content {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 299.44%);
+}
