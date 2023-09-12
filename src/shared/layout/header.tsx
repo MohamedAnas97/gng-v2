@@ -30,9 +30,16 @@ const Header = () => {
               <li className="inline 2xl:px-19 px-9 text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal cursor-pointer aeionik-font">
                 Portfolio
               </li>
-              <li className="inline 2xl:px-20 px-9  text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal cursor-pointer aeionik-font">
-                Blog
-              </li>
+              <Link
+                href={"/blog"}
+                onClick={() => {
+                  setDivheight(0);
+                }}
+              >
+                <li className="inline 2xl:px-20 px-9  text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal cursor-pointer aeionik-font">
+                  Blog
+                </li>
+              </Link>
               <Link href={"/about-us"}>
                 <li className="inline 2xl:pl-15 pl-7 text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal cursor-pointer aeionik-font">
                   About us
@@ -40,16 +47,21 @@ const Header = () => {
               </Link>
             </ul>
             <div className="bg-[#FF6A47] lg:block hidden ">
-              <button className="xl:px-12 px-10 py-7 text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal aeionik-font">
-                Contact us
-              </button>
+              <Link href={"/contact-us"}
+                onClick={() => {
+                  setDivheight(0);
+                }}>
+                <button className="xl:px-12 px-10 py-7 text-[#000] 2xl:text-[19px] xl:text-[17px] text-[16px] font-normal aeionik-font">
+                  Contact us
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
       {/*Responsive  Tab & Mobile */}
-      <div className="lg:hidden block" >
+      <div className="lg:hidden block">
         <div className="flex justify-between  border-y-[1px] border-[#D2D2D5]">
           <div className="lg:pl-12 pl-3 pt-7 pb-3 lg:w-[35%]">
             <Link href={"/"}>
@@ -98,9 +110,16 @@ const Header = () => {
               <li className="md:px-5 md:py-5 py-4 px-4  text-[#000]  text-[18px] font-normal cursor-pointer aeionik-font border-b-[1px] border-[#D2D2D5]">
                 Portfolio
               </li>
-              <li className="md:px-5 md:py-5 py-4 px-4 text-[#000]  text-[18px] font-normal cursor-pointer aeionik-font border-b-[1px] border-[#D2D2D5]">
-                Blog
-              </li>
+              <Link
+                href={"/blog"}
+                onClick={() => {
+                  setDivheight(0);
+                }}
+              >
+                <li className="md:px-5 md:py-5 py-4 px-4 text-[#000]  text-[18px] font-normal cursor-pointer aeionik-font border-b-[1px] border-[#D2D2D5]">
+                  Blog
+                </li>
+              </Link>
               <Link
                 href={"/about-us"}
                 onClick={() => {

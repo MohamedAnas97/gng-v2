@@ -9,10 +9,10 @@ const ContactUs = () => {
   return (
     <>
       {/* contact us start here */}
-      <div className="lg:pl-32 lg:pr-0 sm:px-10 px-4 lg:pt-0 pt-10">
+      <div className="lg:pl-32 lg:pr-0 sm:px-8 px-4 lg:pt-0 pt-10">
         <div className="w-[100%] lg:border-t-0 border-t-[1px] border-[#D2D2D5]">
           <div className="2xl:w-[75%] lg:w-[85%]  border-x-[1px] border-[#D2D2D5] lg:pt-32">
-            <h1 className="py-20 lg:pl-12 lg:text-left text-center text-[56px] font-normal leading-[56px] aeionik-font">
+            <h1 className="py-20 lg:pl-8 lg:text-left text-center text-[56px] font-normal leading-[56px] aeionik-font">
               Contact us
             </h1>
           </div>
@@ -28,7 +28,7 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="First name*"
-                      className="md:p-10 p-7 w-full border-[none] lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
+                      className="md:p-9 p-7 w-full border-[none] lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
                     />
                   </div>
                   {/* last Name */}
@@ -36,7 +36,7 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="Last name*"
-                      className="md:p-10 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
+                      className="md:p-9 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
                     />
                   </div>
                   {/* Email Address */}
@@ -44,7 +44,7 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="Email address*"
-                      className="md:p-10 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
+                      className="md:p-9 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
                     />
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const ContactUs = () => {
                     <input
                       type="phone"
                       placeholder="Phone"
-                      className="md:p-10 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
+                      className="md:p-9 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
                     />
                   </div>
                   {/* Estimated budget */}
@@ -62,11 +62,11 @@ const ContactUs = () => {
                     <input
                       type="text"
                       placeholder="Estimated budget*"
-                      className="md:p-10 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
+                      className="md:p-9 p-7 w-full lg:text-[20px] md:text-[17px] text-[15px] text-[#000] font-light aeionik-font bg-[#ebebed] contact_form"
                     />
                   </div>
                   {/* Upload file */}
-                  <div className=" flex justify-between md:p-9 p-7 border-b-[1px] border-[#D2D2D5]">
+                  <div className=" flex justify-between md:p-8 p-7 border-b-[1px] border-[#D2D2D5]">
                     <label className="xl:text-[20px] lg:text-[17px] text-[16px] text-[15px] text-[#000] font-light aeionik-font ">
                       Upload file (max file size is 30MB)
                     </label>
@@ -84,7 +84,7 @@ const ContactUs = () => {
                   <textarea
                     cols={2}
                     rows={4}
-                    className="w-[100%] md:px-10 px-7 2xl:py-10 md:py-8 py-7 lg:text-[20px] md:text-[17px] font-light aeionik-font text-[15px] text-[#000] bg-[#ebebed] contact_form"
+                    className="w-[100%] md:px-9 px-7 2xl:py-10 md:py-8 py-7 lg:text-[20px] md:text-[17px] font-light aeionik-font text-[15px] text-[#000] bg-[#ebebed] contact_form"
                     placeholder="Type your message*"
                   />
                 </div>
@@ -100,13 +100,6 @@ const ContactUs = () => {
                       specified in the Privacy Policy
                      
                     </label>
-                    {/* <label className="text-[14px] text-[#000] font-light aeionik-font">
-                      {" "}
-                      I agree to the{" "}
-                      <span className="underline">Privacy Policy</span> and give
-                      my permission to process my personal data for the purposes
-                      specified in the Privacy Policy
-                    </label> */}
                   </div>
                   <div
                     className={`2xl:w-[16%] w-[26%]  ${

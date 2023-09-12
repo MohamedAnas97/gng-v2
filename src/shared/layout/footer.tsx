@@ -10,7 +10,7 @@ const Footer = () => {
         {/* footer up */}
         <div className="flex flex-col md:flex-row">
           <div className="w-full lg:w-[63%] pt-16 md:pb-32 pb-16 md:border-x-[1px] border-b-[1px] border-[#434345]">
-            <div className="w-full 2xl:w-[60%] md:w-[90%] px-8 ">
+            <div className="w-full 2xl:w-[60%] md:w-[90%] sm:px-8 px-4 ">
               <h4 className="text-[29px] font-extralight aeionik-font text-[#fff] ">
                 Subscribe to our newsletter to stay in touch with the latest!
               </h4>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           {/* About page link start here */}
           <div className="w-full lg:w-[37%] md:pt-16 md:pb-32 md:border-b-[1px] border-[#434345]">
-            <ul className="px-8 text-center md:text-left md:border-b-0 border-b-[1px] border-[#434345] md:py-0 py-4">
+            <ul className="sm:px-8 px-4 text-center md:text-left md:border-b-0 border-b-[1px] border-[#434345] md:py-0 py-4">
               <li className="text-[18px] text-[#757575] font-extralight aeionik-font py-6 cursor-pointer">
                 About
               </li>
@@ -59,7 +59,7 @@ const Footer = () => {
         {/* footer down */}
         <div className="flex flex-col-reverse md:flex-row">
           <div className="w-full lg:w-[63%] md:py-16 py-6 md:border-x-[1px] border-b-[1px] border-[#434345] ">
-            <div className="px-8 flex md:justify-start justify-center 2xl:pt-52">
+            <div className="sm:px-8 px-4  flex md:justify-start justify-center 2xl:pt-52">
               <Image src={Logo} alt="" className="md:w-60 w-48 md:h-12 h-10" />
             </div>
           </div>
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="lg:w-[37%] w-full md:py-16 py-6 border-b-[1px] border-[#434345]">
             <div className="flex 2xl:flex-row flex-col justify-between">
               <div className="2xl:w-[25%] w-full">
-                <ul className="px-8 text-center md:text-left">
+                <ul className="sm:px-8 px-4 text-center md:text-left">
                   <li className="text-[18px] text-[#fff] font-extralight aeionik-font py-3 cursor-pointer">
                     Linkedin
                   </li>
@@ -83,7 +83,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="2xl:w-[60%] w-full">
-                <ul className="px-8 text-center md:text-left">
+                <ul className="sm:px-8 px-4 text-center md:text-left">
                   <li className="text-[18px] text-[#fff] font-extralight aeionik-font py-3 ">
                     UAE: +971 (04) 334-9500
                   </li>
@@ -96,7 +96,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex 2xl:flex-row flex-col justify-between px-8">
+            <div className="flex 2xl:flex-row flex-col justify-between sm:px-8 px-4">
               <div className="text-center md:text-left 2xl:pt-8">
                 <h6 className="text-[16px] text-[#fff] font-extralight aeionik-font py-3 ">
                   © 2023. G&G Infotech. All Rights Reserved.

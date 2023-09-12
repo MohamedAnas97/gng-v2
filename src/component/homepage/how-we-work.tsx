@@ -49,7 +49,7 @@ const HowWeWork = () => {
 
   return (
     <>
-      <div className="lg:pl-32 lg:pr-0 sm:px-10 px-4">
+      <div className="lg:pl-32 lg:pr-0 sm:px-8 px-4">
         {/* how we work container start here */}
         <div className="flex">
           <div className="w-[45%] border-l-[1px] border-[#D2D2D5] lg:block hidden">
@@ -83,10 +83,10 @@ const HowWeWork = () => {
                     setActiveBox(item.id);
                   }}
                 >
-                  <h3 className="px-6 py-6 2xl:text-[28px] xl:text-[23px] text font-normal aeionik-font cursor-pointer">
+                  <h3 className="px-6 py-6 2xl:text-[27px] xl:text-[20px] text-[16px] font-normal aeionik-font cursor-pointer">
                     {item.title}
                   </h3>
-                  <p className="px-6 py-6 2xl:text-[28px] xl:text-[23px] font-normal aeionik-font leading-[39px]">
+                  <p className="px-6 py-6 2xl:text-[27px] xl:text-[20px] text-[16px] font-normal aeionik-font leading-[39px]">
                     {item.id === activeBox ? item.content : ""}
                   </p>
                 </div>

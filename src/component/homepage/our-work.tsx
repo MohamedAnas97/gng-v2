@@ -49,7 +49,7 @@ const OurWork = () => {
       {/* Our work */}
       <div className="lg:flex lg:justify-end lg:border-l-[1px] lg:border-r-0 lg:border-b-[1px] border-b-0 border-[#D2D2D5]">
         <div className="lg:w-[55%] lg:py-72 pt-32 pb-20 lg:text-left text-center">
-          <h1 className=" text-[#000] xl:pl-8 lg:pl-6 lg:text-[56px] text-[40px] font-normal aeionik-font">
+          <h1 className=" text-[#000] xl:pl-10 lg:pl-6 lg:text-[56px] text-[40px] font-normal aeionik-font">
             Our Work
           </h1>
         </div>

@@ -120,12 +120,12 @@ const Banner = () => {
   return (
     <>
       {/* what we Do start from here */}
-      <div className="lg:pl-32 lg:pr-0 sm:px-10 px-4 bg-[#EBEBED] ">
+      <div className="lg:pl-32 lg:pr-0 sm:px-8 px-4 bg-[#EBEBED] ">
         <div className="lg:pt-60 lg:pb-0 py-10 border-l-[1px] border-[#D2D2D5]">
-          <h1 className="lg:pl-12 py-3 lg:text-[56px] text-[40px]  font-normal text-[#000] leading-9 aeionik-font lg:text-left text-center">
+          <h1 className="lg:pl-8 py-3 lg:text-[56px] text-[40px]  font-normal text-[#000] leading-9 aeionik-font lg:text-left text-center">
             What we do
           </h1>
-          <p className="lg:pl-12 px-6 lg:px-0 pt-3 pb-10 md:text-[20px] text-[16px] text-[#000] font-light aeionik-font lg:text-left text-center">
+          <p className="lg:pl-8 px-6 lg:px-0 pt-3 pb-10 md:text-[20px] text-[16px] text-[#000] font-light aeionik-font lg:text-left text-center">
             GNG empowers businesses with innovative strategies, metaverse
             integration, and advanced tech for accelerated transformation.
           </p>
