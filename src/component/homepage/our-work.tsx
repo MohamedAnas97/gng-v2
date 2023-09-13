@@ -48,7 +48,7 @@ const OurWork = () => {
     <div className="lg:pl-32 lg:pr-0 sm:px-8 px-4 ">
       {/* Our work */}
       <div className="lg:flex lg:justify-end lg:border-l-[1px] lg:border-r-0 lg:border-b-[1px] border-b-0 border-[#D2D2D5]">
-        <div className="lg:w-[55%] lg:py-72 pt-32 pb-20 lg:text-left text-center">
+        <div className="lg:w-[55%] lg:py-64 pt-32 pb-20 lg:text-left text-center">
           <h1 className=" text-[#000] xl:pl-10 lg:pl-6 lg:text-[56px] text-[40px] font-normal aeionik-font">
             Our Work
           </h1>
@@ -61,13 +61,13 @@ const OurWork = () => {
           key={index}
         >
           <div className="">
-            <h4 className="text-[#000] text-[24px] font-normal aeionik-font lg:px-8 py-12 lg:text-left text-center">
+            <h4 className="text-[#000] text-[22px] font-normal aeionik-font lg:px-8 py-8 lg:text-left text-center">
               {item.title}
             </h4>
           </div>
           <div className="lg:w-[55%] ">
-            <div className="flex justify-between sm:px-8 px-6 py-12  border-t-[1px] lg:border-x-0 border-x-[1px] lg:border-t-0 border-[#D2D2D5]">
-              <h3 className="sm:text-[30px] text-[24px] font-normal aeionik-font text-[#000]">
+            <div className="flex justify-between sm:px-8 px-6 py-8  border-t-[1px] lg:border-x-0 border-x-[1px] lg:border-t-0 border-[#D2D2D5]">
+              <h3 className="xl:text-[28px] md:text-[24px] text-[22px] font-normal aeionik-font text-[#000]">
                 {item.subtitle}
               </h3>
               <div
@@ -81,12 +81,12 @@ const OurWork = () => {
                     setActiveBox(item.id);
                   }
                 }}
-                className="mt-3"
+                className="lg:mt-3 mt-2"
               >
                 <Image
                   src={item.image}
                   alt=""
-                  className="lg:w-[24px] w-[20px] lg:h-[24px] h-[20px] cursor-pointer"
+                  className="lg:w-[20px] w-[16px] lg:h-[20px] h-[16px] cursor-pointer"
                 />
               </div>
             </div>

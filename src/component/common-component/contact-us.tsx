@@ -12,7 +12,7 @@ const ContactUs = () => {
       <div className="lg:pl-32 lg:pr-0 sm:px-8 px-4 lg:pt-0 pt-10">
         <div className="w-[100%] lg:border-t-0 border-t-[1px] border-[#D2D2D5]">
           <div className="2xl:w-[75%] lg:w-[85%]  border-x-[1px] border-[#D2D2D5] lg:pt-32">
-            <h1 className="py-20 lg:pl-8 lg:text-left text-center text-[56px] font-normal leading-[56px] aeionik-font">
+            <h1 className="py-20 lg:pl-8 lg:text-left text-center lg:text-[56px] text-[40px]  font-normal leading-[56px] aeionik-font">
               Contact us
             </h1>
           </div>
@@ -91,14 +91,11 @@ const ContactUs = () => {
                 <div className="flex justify-between w-[100%]">
                   <div className="2xl:w-[84%] lg:w-[74%] 2xl:p-8 2xl:pr-0 sm:p-7 p-3 ">
                     <label className="checkbox-container text-[14px] text-[#000] font-light aeionik-font ">
-                    <input type="checkbox"  />
-                      <span className="checkmark"></span>
-                     
-                      I agree to the{" "}
+                      <input type="checkbox" />
+                      <span className="checkmark"></span>I agree to the{" "}
                       <span className="underline">Privacy Policy</span> and give
                       my permission to process my personal data for the purposes
                       specified in the Privacy Policy
-                     
                     </label>
                   </div>
                   <div
