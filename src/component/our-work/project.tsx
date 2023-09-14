@@ -33,10 +33,10 @@ const Project = () => {
           >
             <div className="p-9">
               <div className="xl:py-5 py-3">
-                <h1 className="text-[#000] xl:text-[57px] lg:text-[45px] sm:text-[30px] text-[25px] font-normal aeionik-font xl:leading-[56px] leading-[40px] md:text-left text-center">
+                <h1 className="text-[#000] xl:text-[52px] lg:text-[45px] sm:text-[30px] text-[25px] font-normal aeionik-font xl:leading-[56px] leading-[40px] md:text-left text-center">
                   {item.title}
                 </h1>
-                <h6 className="text-[#000] xl:text-[28px] sm:text-[20px] text-[18px] font-light aeionik-font leading-[39px] md:text-left text-center py-3">
+                <h6 className="text-[#000] xl:text-[26px] sm:text-[20px] text-[18px] font-light aeionik-font leading-[39px] md:text-left text-center py-3">
                   {item.subtitle}
                 </h6>
               </div>
